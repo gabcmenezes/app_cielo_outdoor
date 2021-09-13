@@ -28,35 +28,28 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ1"
+                    android:id="@+id/secQ1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ1.1"
+                    android:text="@string/secQ1.1"
                     android:textColor="#000"/>
 
-                <RadioGroup
-                    android:layout_width="wrap_content"
+                <RadioButton
+                    android:id="@+id/radioButton1.1"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:id="@+id/radioGroup">
+                    android:layout_marginTop="50dp"
+                    android:text="Sim"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="10dp" />
 
-                    <RadioButton
-                        android:id="@+id/radioButton1.1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Sim"
-                        android:onClick="checkButton"
-                        android:layout_marginTop="30dp"
-                        android:checked="true"/>
-
-                    <RadioButton
-                        android:id="@+id/radioButton1.2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Não"
-                        android:onClick="checkButton"/>
-
-                </RadioGroup>
+                <RadioButton
+                    android:id="@+id/radioButton1.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Não"
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1.1"
+                    tools:layout_editor_absoluteX="145dp" />
 
                 <TextView
                     android:id="@+id/coment1"
@@ -81,6 +74,7 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
+                    android:layout_marginTop="160dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
@@ -91,7 +85,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextComentario1" />
+                    app:layout_constraintTop_toBottomOf="@+id/radioButton1.1" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -101,10 +95,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ2"
+                    android:id="@+id/secQ2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ2.1"
+                    android:text="@string/secQ2.1"
                     android:textColor="#000"/>
 
                 <RadioButton
@@ -168,10 +162,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ3"
+                    android:id="@+id/secQ3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ3.1"
+                    android:text="@string/secQ3.1"
                     android:textColor="#000"/>
 
                 <RadioButton
@@ -235,10 +229,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ4"
+                    android:id="@+id/secQ4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ4.1"
+                    android:text="@string/secQ4.1"
                     android:textColor="#000"/>
 
                 <RadioButton
@@ -302,10 +296,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ5"
+                    android:id="@+id/secQ5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ5.1"
+                    android:text="@string/secQ5.1"
                     android:textColor="#000"/>
 
                 <RadioButton
@@ -369,10 +363,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/invQ6"
+                    android:id="@+id/secQ6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/invQ6.1"
+                    android:text="@string/secQ6.1"
                     android:textColor="#000"/>
 
                 <RadioButton
@@ -427,73 +421,6 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/radioButton6.1" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            /*7*/
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/invQ7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/invQ7.1"
-                    android:textColor="#000"/>
-
-                <RadioButton
-                    android:id="@+id/radioButton7.1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:text="Sim"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:layout_editor_absoluteX="10dp" />
-
-                <RadioButton
-                    android:id="@+id/radioButton7.2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Não"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton7.1"
-                    tools:layout_editor_absoluteX="145dp" />
-
-                <TextView
-                    android:id="@+id/coment7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="170dp"
-                    android:text="Comentário:"
-                    android:textColor="#000"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <EditText
-                    android:id="@+id/editTextComentario7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="195dp"
-                    android:ems="10"
-                    android:inputType="text"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <Button
-                    android:id="@+id/button_photograph7"
-                    android:layout_width="300dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
-                    android:layout_marginEnd="50dp"
-                    android:layout_marginBottom="50dp"
-                    android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
-                    android:textColor="#FFFFFF"
-                    android:textSize="10dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton7.1" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.app_cielo.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,7 +27,6 @@ public class InventoryActivity extends AppCompatActivity {
 
         radioGroup = findViewById(R.id.radioGroup);
 
-
         getSupportActionBar().hide(); //esconder actionbar
 
     }
@@ -35,7 +35,12 @@ public class InventoryActivity extends AppCompatActivity {
 
         radioButton = findViewById(radioId);
 
-        Toast.makeText(this, "Resposta: " + radioButton.getText(),
-                Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Resposta: " + radioButton.getText(), Toast.LENGTH_SHORT).show();
+        if (radioButton.getText()=="Sim"){
+            Toast.makeText(InventoryActivity.this, "sim!", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(InventoryActivity.this, "não!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, LoginActivity01.class));
+        }
     }
 }

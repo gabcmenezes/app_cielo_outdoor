@@ -118,9 +118,9 @@
 
 
     <!-- (((COURRIER QUESTIONS))) -->
-    <string name="couQ1.1">1. ?</string>
-    <string name="couQ2.1">2. ?</string>
-    <string name="couQ3.1">3. ?</string>
+    <string name="couQ1.1">1. Sistema de monitoramento de entrega do terminal é utilizado?</string>
+    <string name="couQ2.1">2. Os courires estão acondicionando corretamente as caixas no baú?</string>
+    <string name="couQ3.1">3. É realizada a conferência de dados cadastrais de OS antes do embarque?</string>
     <string name="couQ1.2">Comentário:</string>
     <string name="couQ1.3">Foto:</string>
     <!-- (((FIM COURRIER QUESTIONS))) -->
@@ -135,6 +135,27 @@
     <string name="manQ1.2">Comentário:</string>
     <string name="manQ1.3">Foto:</string>
     <!-- (((FIM MANAGEMENT QUESTIONS))) -->
+
+    <!-- (((6M's QUESTIONS))) -->
+    <string name="six_msQ1.1">M1 - Método [Opções]: </string>
+    <string name="six_msQ1.2">M1 - Método [Nº de comentários]: </string>
+    <string name="six_msQ1.3">M1 - Método [Comentário]: </string>
+    <string name="six_msQ2.1">M2 - Matéria Prima [Opções]: </string>
+    <string name="six_msQ2.2">M2 - Matéria Prima [Nº de comentários]: </string>
+    <string name="six_msQ2.3">M2 - Matéria Prima [Comentário]: </string>
+    <string name="six_msQ3.1">M3 - Mão de Obra [Opções]: </string>
+    <string name="six_msQ3.2">M3 - Mão de Obra [Nº de comentários]: </string>
+    <string name="six_msQ3.3">M3 - Mão de Obra [Comentário]: </string>
+    <string name="six_msQ4.1">M4 - Máquinas [Opções]: </string>
+    <string name="six_msQ4.2">M4 - Máquinas [Nº de comentários]: </string>
+    <string name="six_msQ4.3">M4 - Máquinas [Comentário]: </string>
+    <string name="six_msQ5.1">M5 - Medição [Opções]: </string>
+    <string name="six_msQ5.2">M5 - Medição [Nº de comentários]: </string>
+    <string name="six_msQ5.3">M5 - Medição [Comentário]: </string>
+    <string name="six_msQ6.1">M6 - Meio Ambiente [Opções]: </string>
+    <string name="six_msQ6.2">M6 - Meio Ambiente [Nº de comentários]: </string>
+    <string name="six_msQ6.3">M6 - Meio Ambiente [Comentário]: </string>
+    <!-- (((FIM 6M's QUESTIONS))) -->
 
     <string name="login">Acessar</string>
     <string name="name">Nome</string>

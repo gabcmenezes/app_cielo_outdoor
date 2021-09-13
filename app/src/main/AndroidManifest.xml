@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.app_cielo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_cielo">
         <activity
-            android:name=".activities.InventoryActivity"
+            android:name=".activities.AuditOutdoor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,15 +28,24 @@
         <activity android:name=".activities.users.UserNewActivity" />
         <activity android:name=".activities.users.UserShowActivity" />
         <activity android:name=".activities.LoginActivity01" />
+        <activity android:name=".activities.LoginActivityFirebase" />
         <activity android:name=".activities.UploadPhoto" />
         <activity android:name=".activities.SecurityActivity" />
         <activity android:name=".activities.TestRadio" />
         <activity android:name=".activities.StartActivity" />
         <activity android:name=".activities.InfrastructureActivity" />
         <activity android:name=".activities.LogisticsActivity" />
-        <activity android:name=".activities.CourrierActivity" />
+        <activity android:name=".activities.ImagePickerActivity" />
         <activity android:name=".activities.ManagementActivity" />
-        <activity android:name=".activities.AuditOutdoor" />
+        <activity android:name=".activities.six_ms.SixMsCourrier" />
+        <activity android:name=".activities.six_ms.SixMsInventory" />
+        <activity android:name=".activities.six_ms.SixMsInfrastructure" />
+        <activity android:name=".activities.six_ms.SixMsLogistics" />
+        <activity android:name=".activities.six_ms.SixMsManagement" />
+        <activity android:name=".activities.six_ms.SixMsSecurity" />
+        <activity android:name=".activities.CourrierActivity" />
+        <activity android:name=".activities.TestLocation" />
+        <activity android:name=".activities.TestCheckBox" />
     </application>
 
 </manifest>

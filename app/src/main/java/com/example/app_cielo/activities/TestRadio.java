@@ -3,6 +3,7 @@ package com.example.app_cielo.activities;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -13,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.app_cielo.R;
 
 public class TestRadio extends AppCompatActivity {
+    private CheckBox ch1, ch2, ch3;
+    Button btnSubmit;
     RadioGroup radioGroup;
     RadioButton radioButton;
     TextView textView;

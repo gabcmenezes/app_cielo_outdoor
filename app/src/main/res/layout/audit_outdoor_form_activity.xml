@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Nome do(a) auditor(a):"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -44,14 +44,15 @@
                 android:inputType="textPersonName"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite seu nome:"/>
 
             <TextView
                 android:id="@+id/textDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Data atual:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -75,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Filial:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -92,14 +93,15 @@
                 android:inputType="textPersonName"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite a filial:"/>
 
             <TextView
                 android:id="@+id/textCodigoSAP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Código SAP:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -116,14 +118,15 @@
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o código SAP:"/>
 
             <TextView
                 android:id="@+id/textCNPJ"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="CNPJ:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -140,14 +143,15 @@
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o CNPJ:"/>
 
             <TextView
                 android:id="@+id/textEndereco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Endereço:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -164,14 +168,15 @@
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o Endereço:"/>
 
             <TextView
                 android:id="@+id/textCEP"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="CEP:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -188,14 +193,15 @@
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o CEP:"/>
 
             <TextView
-                android:id="@+id/textLocalizacaoAtual"
+                android:id="@+id/text_location"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Localização atual:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -214,12 +220,17 @@
                 android:singleLine="true"
                 android:textColor="@color/colorTextPrimary" />
 
+            <Button
+                android:id="@+id/button_location"
+                android:text="Get Location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
             <TextView
                 android:id="@+id/textNomeParticipantes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Nome dos participantes:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -236,14 +247,15 @@
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o nome do(s) participante(s):"/>
 
             <TextView
                 android:id="@+id/textPontoFocalPA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:gravity="left"
                 android:text="Ponto focal da PA:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -260,14 +272,112 @@
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite o focal da PA:"/>
+
+            <TextView
+                android:id="@+id/textOpcoesDeGrupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="left"
+                android:text="Escolha  uma das opções de grupo:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Segurança" />
+
+                <Button
+                    android:id="@+id/btnPreencherSeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Segurança]" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Infraestrutura" />
+
+                <Button
+                    android:id="@+id/btnPreencherInf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Infraestrutura]" />
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Estoque" />
+
+                <Button
+                    android:id="@+id/btnPreencherEst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Estoque]" />
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Logística" />
+
+                <Button
+                    android:id="@+id/btnPreencherLog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Logística]" />
+
+                <RadioButton
+                    android:id="@+id/rb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Courrier" />
+
+                <Button
+                    android:id="@+id/btnPreencherCou"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Courrier]" />
+
+                <RadioButton
+                    android:id="@+id/rb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Gestão" />
+
+                <Button
+                    android:id="@+id/btnPreencherGes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulário [Gestão]" />
+            </RadioGroup>
 
             <TextView
                 android:id="@+id/textConsideracoesFinais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
                 android:text="Considerações finais:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="18sp"
@@ -284,7 +394,8 @@
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:hint="Digite uma consideração geral:"/>
 
         </LinearLayout>
     </ScrollView>

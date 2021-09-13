@@ -6,6 +6,30 @@
     android:layout_height="match_parent"
     tools:context="com.example.app_cielo.activities.TestRadio">
 
+
+    <CheckBox
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One"
+        android:id="@+id/ch1"/>
+
+    <CheckBox
+        android:layout_marginLeft="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two"
+        android:id="@+id/ch2"/>
+
+    <CheckBox
+        android:layout_marginLeft="270dp"
+        android:id="@+id/ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Three" />
+
+
+
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

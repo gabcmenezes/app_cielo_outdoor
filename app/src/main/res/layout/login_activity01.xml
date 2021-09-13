@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#022045"
-    tools:context="com.example.app_cielo.activities.LoginActivity">
+    tools:context="com.example.app_cielo.activities.LoginActivityFirebase">
 
     <ImageButton
         android:id="@+id/buttonBack"
@@ -98,5 +98,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logsup_logo01" />
+
+    <TextView
+        android:id="@+id/lblCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Não possui cadastro? Registre-se aqui."
+        android:textColor="#FFFFFF"
+        android:onClick="goToRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submit_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

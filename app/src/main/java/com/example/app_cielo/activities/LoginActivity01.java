@@ -14,6 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.app_cielo.R;
+import com.example.app_cielo.activities.users.UserNewActivity;
+import com.example.app_cielo.activities.users.UsersActivity;
 
 public class LoginActivity01 extends AppCompatActivity {
 
@@ -75,6 +77,10 @@ public class LoginActivity01 extends AppCompatActivity {
 
     public void back(View view) {
         startActivity(new Intent(this, StartActivity.class));
+    }
+
+    public void goToRegister(View view) {
+        startActivity(new Intent(this, UserNewActivity.class));
     }
 
     private TextWatcher textWatcher = new TextWatcher() {

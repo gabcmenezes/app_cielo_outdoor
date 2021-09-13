@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/drawable/border01.xml" value="0.2703125" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/airport_edit_activity.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/audit_outdoor_activity.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/audit_outdoor_form_activity.xml" value="0.2" />
-        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/courrier_activity.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/courrier_form_activity.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/audit_outdoor_form_activity.xml" value="0.21413427561837456" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/courrier_activity.xml" value="0.264" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/courrier_form_activity.xml" value="0.264" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/image_picker_activity.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/infrastructure_actitvity.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/infrastructure_activity.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/infrastructure_form_activity.xml" value="0.1" />
@@ -22,9 +24,26 @@
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/management_form_activity.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/security_activity.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/security_form_activity.xml" value="0.1" />
-        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/testradio.xml" value="0.264" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_courrier_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_courrier_form_activity.xml" value="0.22452229299363058" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_infrastructure_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_infrastructure_form_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_inventory_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_inventory_form_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_logistics_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_logistics_form_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_management_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_management_form_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_security_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/six_ms_security_form_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/test_location_activity.xml" value="0.2" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/testcheckbox.xml" value="0.264" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/testradio.xml" value="0.4" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/user_form_layout.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/user_new_activity.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/user_show_activity.xml" value="0.1578125" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/users_activity.xml" value="0.1578125" />
+        <entry key="..\:/Users/posve/AndroidStudioProjects/app_cielo/app/src/main/res/layout/users_items_layout.xml" value="0.1578125" />
       </map>
     </option>
   </component>

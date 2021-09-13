@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078825269405",
+    "project_id": "app-cielo-outdoor",
+    "storage_bucket": "app-cielo-outdoor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078825269405:android:5e9db11aebeee62468bc74",
+        "android_client_info": {
+          "package_name": "com.example.app_cielo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078825269405-tp7qtaskrda81r284njme10dq3uvbppn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbUuYeSehZ23hNiguoNQaIvKk2hq2vZCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078825269405-tp7qtaskrda81r284njme10dq3uvbppn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

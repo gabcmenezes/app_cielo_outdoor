@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.app_cielo.R;
+import com.example.app_cielo.activities.LoginActivity01;
 import com.example.app_cielo.activities.MainMenuActivity;
 import com.example.app_cielo.daos.UserDAO;
 import com.example.app_cielo.models.User;
@@ -41,7 +42,7 @@ public class UsersActivity extends AppCompatActivity {
     }
 
     public void back(View view) {
-        startActivity(new Intent(this, MainMenuActivity.class));
+        startActivity(new Intent(this, LoginActivity01.class));
     }
 
     public void goToNewUser(View view) {

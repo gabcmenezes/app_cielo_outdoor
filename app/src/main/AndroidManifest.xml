@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_cielo">
         <activity
-            android:name=".activities.AuditOutdoor"
+            android:name=".activities.LoginActivity01"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.MainMenuActivity" />
-        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.AuditOutdoor" />
         <activity android:name=".activities.users.UsersActivity" />
         <activity android:name=".activities.users.UserEditActivity" />
         <activity android:name=".activities.users.UserNewActivity" />
         <activity android:name=".activities.users.UserShowActivity" />
-        <activity android:name=".activities.LoginActivity01" />
+        <activity android:name=".activities.LoginActivity" />
         <activity android:name=".activities.LoginActivityFirebase" />
         <activity android:name=".activities.UploadPhoto" />
         <activity android:name=".activities.SecurityActivity" />
@@ -35,6 +35,7 @@
         <activity android:name=".activities.StartActivity" />
         <activity android:name=".activities.InfrastructureActivity" />
         <activity android:name=".activities.LogisticsActivity" />
+        <activity android:name=".activities.InventoryActivity" />
         <activity android:name=".activities.ImagePickerActivity" />
         <activity android:name=".activities.ManagementActivity" />
         <activity android:name=".activities.six_ms.SixMsCourrier" />

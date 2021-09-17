@@ -67,6 +67,7 @@
                     android:layout_marginTop="195dp"
                     android:ems="10"
                     android:inputType="text"
+                    android:background="@drawable/edit_rounded_border"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
@@ -74,18 +75,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton1.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage" />
+
+                <ImageView
+                    android:id="@+id/pickedImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario1"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -125,18 +135,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton2.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage2"/>
+
+                <ImageView
+                    android:id="@+id/pickedImage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario2"
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <TextView
                     android:id="@+id/coment2"
@@ -208,18 +227,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton3.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage3" />
+
+                <ImageView
+                    android:id="@+id/pickedImage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario3"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -275,18 +303,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton4.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage4" />
+
+                <ImageView
+                    android:id="@+id/pickedImage4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario4"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -342,18 +379,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton5.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage5" />
+
+                <ImageView
+                    android:id="@+id/pickedImage5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario5"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -409,18 +455,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton6.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage6" />
+
+                <ImageView
+                    android:id="@+id/pickedImage6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario6"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -476,18 +531,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton7.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage7" />
+
+                <ImageView
+                    android:id="@+id/pickedImage7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario7"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -543,18 +607,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton8.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage8" />
+
+                <ImageView
+                    android:id="@+id/pickedImage8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario8"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -610,18 +683,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton9.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage9" />
+
+                <ImageView
+                    android:id="@+id/pickedImage9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario9"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -677,18 +759,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton10.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage10" />
+
+                <ImageView
+                    android:id="@+id/pickedImage10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario10"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -744,18 +835,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton11.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage11" />
+
+                <ImageView
+                    android:id="@+id/pickedImage11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario11"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -811,18 +911,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton12.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage12" />
+
+                <ImageView
+                    android:id="@+id/pickedImage12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario12"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -878,18 +987,27 @@
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="50dp"
-                    android:layout_marginTop="160dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginBottom="50dp"
                     android:background="@drawable/button_rounded_border_tertiary"
-                    android:onClick="goToPhotograph"
-                    android:text="Foto"
+                    android:text="Anexar imagem"
                     android:textColor="#FFFFFF"
                     android:textSize="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/radioButton13.1" />
+                    app:layout_constraintTop_toBottomOf="@+id/pickedImage13" />
+
+                <ImageView
+                    android:id="@+id/pickedImage13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextComentario13"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

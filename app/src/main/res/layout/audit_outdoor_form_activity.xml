@@ -12,7 +12,8 @@
         android:background="@color/colorSecondary"
         android:paddingLeft="45dp"
         android:paddingRight="45dp"
-        tools:layout_editor_absoluteY="72dp">
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-329dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,11 +42,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite seu nome"
                 android:inputType="textPersonName"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite seu nome:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textDate"
@@ -90,11 +91,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite a filial"
                 android:inputType="textPersonName"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite a filial:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textCodigoSAP"
@@ -115,11 +116,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o código SAP"
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o código SAP:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textCNPJ"
@@ -140,11 +141,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o CNPJ"
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o CNPJ:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textEndereco"
@@ -165,11 +166,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o Endereço"
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o Endereço:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textCEP"
@@ -190,11 +191,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o CEP"
                 android:inputType="number"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o CEP:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/text_location"
@@ -222,9 +223,11 @@
 
             <Button
                 android:id="@+id/button_location"
-                android:text="Get Location"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Obter Localização" />
+
             <TextView
                 android:id="@+id/textNomeParticipantes"
                 android:layout_width="match_parent"
@@ -244,11 +247,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o nome do(s) participante(s)"
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o nome do(s) participante(s):"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textPontoFocalPA"
@@ -269,11 +272,11 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite o focal da PA"
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite o focal da PA:"/>
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:id="@+id/textOpcoesDeGrupo"
@@ -287,96 +290,96 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/radioGroup">
-
-                <RadioButton
-                    android:id="@+id/rb1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Segurança" />
+            <CheckBox
+                android:id="@+id/ch1"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segurança" />
 
                 <Button
                     android:id="@+id/btnPreencherSeg"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Segurança]" />
+                    android:text="Formulário [Segurança]"
+                    android:onClick="goToSecurityActivity"/>
 
-                <RadioButton
-                    android:id="@+id/rb2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Infraestrutura" />
+            <CheckBox
+                android:id="@+id/ch2"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infraestrutura" />
 
                 <Button
                     android:id="@+id/btnPreencherInf"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Infraestrutura]" />
+                    android:text="Formulário [Infraestrutura]"
+                    android:onClick="goToInfrastructureActivity"/>/>
 
-                <RadioButton
-                    android:id="@+id/rb3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Estoque" />
+            <CheckBox
+                android:id="@+id/ch3"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estoque" />
 
                 <Button
                     android:id="@+id/btnPreencherEst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Estoque]" />
+                    android:text="Formulário [Estoque]"
+                    android:onClick="goToInventoryActivity"/>/>
 
-                <RadioButton
-                    android:id="@+id/rb4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Logística" />
+            <CheckBox
+                android:id="@+id/ch4"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logística" />
 
                 <Button
                     android:id="@+id/btnPreencherLog"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Logística]" />
+                    android:text="Formulário [Logística]"
+                    android:onClick="goToLogisticsActivity"/>/>
 
-                <RadioButton
-                    android:id="@+id/rb5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Courrier" />
+            <CheckBox
+                android:id="@+id/ch5"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courrier" />>
 
                 <Button
                     android:id="@+id/btnPreencherCou"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Courrier]" />
+                    android:text="Formulário [Courrier]"
+                    android:onClick="goToCourrierActivity"/>/>
 
-                <RadioButton
-                    android:id="@+id/rb6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:onClick="checkButton"
-                    android:text="Gestão" />
+            <CheckBox
+                android:id="@+id/ch6"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gestão" />
 
                 <Button
                     android:id="@+id/btnPreencherGes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Formulário [Gestão]" />
-            </RadioGroup>
+                    android:text="Formulário [Gestão]"
+                    android:onClick="goToManagementActivity"/>/>
 
             <TextView
                 android:id="@+id/textConsideracoesFinais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
                 android:gravity="left"
                 android:text="Considerações finais:"
                 android:textColor="@color/colorPrimary"
@@ -391,11 +394,18 @@
                 android:width="200dp"
                 android:autofillHints="true"
                 android:background="@drawable/edit_rounded_border"
+                android:hint="Digite uma consideração geral"
                 android:inputType="text"
                 android:padding="5dp"
                 android:singleLine="true"
-                android:textColor="@color/colorTextPrimary"
-                android:hint="Digite uma consideração geral:"/>
+                android:textColor="@color/colorTextPrimary" />
+
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
 
         </LinearLayout>
     </ScrollView>

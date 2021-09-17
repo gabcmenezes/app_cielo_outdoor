@@ -67,6 +67,12 @@ public class CourrierActivity extends AppCompatActivity {
         });
         getSupportActionBar().hide(); //esconder actionbar
     }
+
+    public void back (View view){
+        //startActivity(new Intent(this, AuditOutdoor.class));
+        finish();
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
